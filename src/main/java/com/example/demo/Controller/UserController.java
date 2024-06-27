@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("api/v1/user")
 
 public class UserController {
-    @Autowired
-    private UserService userService;
-    @PostMapping(value = "/save")
-    public String saveUsser(@RequestBody User user)
-    {
-        UserService.saveorUpdate(users);
-        return users.get_id();
-    }
+//    @Autowired
+//    private UserService userService;
+//    @PostMapping(value = "/save")
+//    public String saveUsser(@RequestBody User user)
+//    {
+//        UserService.saveorUpdate(users);
+//        return users.get_id();
+//    }
 }
